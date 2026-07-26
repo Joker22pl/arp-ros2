@@ -1,0 +1,25 @@
+# Editor
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Markdown artifacts (not source)
+*~
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets (NEVER commit)
+*.pem
+*.key
+secrets.yaml
+google-services.json
